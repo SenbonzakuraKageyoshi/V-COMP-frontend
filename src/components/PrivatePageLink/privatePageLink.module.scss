@@ -1,0 +1,9 @@
+.privatePageLink:not(:first-child){
+    margin-left: 25px;
+}
+
+@media(max-width: 700px){
+    .privatePageLink:not(:first-child){
+        margin-left: 10px;
+    }
+}

@@ -1,0 +1,30 @@
+.headerNavLink{
+    font-size: 12px;
+    line-height: 12px;
+    color: #F4F8FB;
+    font-family: var(--medium);
+
+    &:not(:first-child){
+        margin-left: 25px;
+    }
+}
+
+.headerNav{
+    div{
+        display: none;
+    }
+}
+
+@media(max-width: 700px){
+    .headerNavLink{
+        display: none;
+    }
+
+    .headerNav{
+        div{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+}

@@ -1,0 +1,13 @@
+.logoLight{
+    display: none;
+}
+
+@media(max-width: 700px){
+    .logoDark{
+        display: none;
+    }
+
+    .logoLight{
+        display: block;
+    }
+}
